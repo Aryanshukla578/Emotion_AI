@@ -1,7 +1,5 @@
-streamlit==1.35.0
-speechrecognition==3.10.1
-transformers==4.41.1
-torch==2.2.1+cpu
-torchaudio==2.2.1+cpu
-Pillow==10.3.0
---extra-index-url https://download.pytorch.org/whl/cpu
+streamlit
+speechrecognition
+transformers
+torch
+pillow
