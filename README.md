@@ -21,7 +21,8 @@ Transform your **voice or text** into expressive poetry and AI-generated art —
 
 ## 🌌 Screenshot
 
-![Emotion AI Screenshot](Emotion_AI/night_sky.jpg)
+![Emotion AI Screenshot](assets/night-sky.jpg)
+
 
 *A poetic night: stars echoing your mood.*
 
