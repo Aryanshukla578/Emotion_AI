@@ -1,44 +1,49 @@
 # 🎭 Emotion to Expression AI
 
-Turn your **emotions** into **poetic expressions** with this intelligent AI app. Powered by NLP and deep learning, this project allows users to input text or speech and receive emotionally-tuned poetic responses with matching visual themes.
+Turn raw human emotion into poetic expression — with a single voice or text input.  
+This Streamlit app detects **emotions from your voice or written words**, then responds with a **beautiful AI-generated poetic interpretation** and **abstract image**.
 
 ![App Screenshot](assets/night_sky.jpg)
 
 ## 🌐 Live Demos
 
-- 🔗 [Streamlit Demo](https://emotionai-dzjpecbetxzpyybquwlbqq.streamlit.app/)
-- 🔗 [Lovable App Mirror](https://expressive-ai-poetry-verse.lovable.app/)
+- 🔊 [Voice-based Emotion App](https://emotionai-dzjpecbetxzpyybquwlbqq.streamlit.app/)
+- 📝 [Text-based Poetic Expression](https://expressive-ai-poetry-verse.lovable.app/)
 
 ---
 
-## 💡 Features
+## 🧠 Features
 
-- 🎤 **Voice-to-Emotion**: Speak your heart — the app transcribes and analyzes.
-- 📝 **Text-to-Emotion**: Type in any sentence to detect emotional tone.
-- 🖋️ **Poetic Generator**: Converts emotions into creative, metaphorical verses.
-- 🖼️ **Visual Art**: Auto-generates artistic imagery based on detected emotion.
+- 🎙️ **Voice Input** (via microphone)
+- 📝 **Text Input** (manual typing)
+- 🧠 Emotion detection using NLP
+- 🧾 Generates **poetic expression** from emotion
+- 🖼️ Abstract background image based on emotion (via Unsplash API)
 
 ---
 
-## 🤖 Tech Stack
+## 📦 Tech Stack
 
-| Layer       | Tools/Tech Used |
-|-------------|-----------------|
-| UI          | Streamlit       |
-| NLP Model   | 🤗 Transformers (DistilRoBERTa) |
-| Speech      | SpeechRecognition (Google API) |
-| Styling     | Unsplash API (image query), CSS via Streamlit |
-| Logic       | Python, Custom Templates |
+- **Frontend/UI**: Streamlit
+- **Backend**: Python
+- **Libraries**:
+  - `speechrecognition`
+  - `transformers`
+  - `torch`
+  - `streamlit`
+  - `requests`
+  - `pyaudio` (for voice)
 
 ---
 
 ## 🚀 Getting Started
 
-### 🔧 Installation
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Aryanshukla578/Emotion_AI.git
 cd Emotion_AI
+
 pip install -r requirements.txt
 streamlit run app.py
 Emotion_AI/
