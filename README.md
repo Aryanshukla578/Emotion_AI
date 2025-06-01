@@ -8,8 +8,8 @@ This Streamlit app detects **emotions from your voice or written words**, then r
 
 ## 🌐 Live Demos
 
-- 🔊 [Voice-based Emotion App](https://emotionai-dzjpecbetxzpyybquwlbqq.streamlit.app/)
-- 📝 [Text-based Poetic Expression](https://expressive-ai-poetry-verse.lovable.app/)
+- 📝 [Text-based Emotion App](https://emotionai-dzjpecbetxzpyybquwlbqq.streamlit.app/)
+- 🔊 [Voice-based Poetic Expression](https://expressive-ai-poetry-verse.lovable.app/)
 
 ---
 
