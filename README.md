@@ -33,7 +33,7 @@ Transform voice or text into powerful **poetic expressions** and AI-generated vi
 
 ## 📸 Screenshots
 
-![Emotion Detection](https://i.imgur.com/y3CXyoU.png)
+![Emotion Detection]([https://i.imgur.com/y3CXyoU.png](https://w0.peakpx.com/wallpaper/33/736/HD-wallpaper-sky-stars-night-sky-beautiful-watercolor-background-beautiful-night-sky-night-sky-art-night-sky-painting-night-sky-drawing.jpg))
 *Example: Speech converted to text, emotion detected as "joy", poetry & art generated.*
 
 ---
