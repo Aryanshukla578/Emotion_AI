@@ -3,14 +3,11 @@ import speech_recognition as sr
 import os
 from utils import detect_emotion, generate_expression
 from PIL import Image
-import time
 
 st.set_page_config(page_title="🎭 Emotion to Expression AI", layout="centered")
-
 st.title("🎙️ Emotion to Expression AI")
 st.subheader("Turn Your Voice into Artful Expression")
 
-# Step 1: Record user audio and save it
 def record_audio(filename="temp_audio.wav"):
     recognizer = sr.Recognizer()
     try:
@@ -30,7 +27,6 @@ def record_audio(filename="temp_audio.wav"):
             f.write(audio.get_wav_data())
     return filename
 
-# Step 2: Convert speech to text
 def speech_to_text(audio_file="temp_audio.wav"):
     recognizer = sr.Recognizer()
     try:
@@ -45,7 +41,6 @@ def speech_to_text(audio_file="temp_audio.wav"):
     except Exception as e:
         return f"Error: {e}"
 
-# Main interface
 if st.button("🎤 Start Voice Input"):
     with st.spinner("Recording..."):
         fname = record_audio()
@@ -64,19 +59,17 @@ if st.button("🎤 Start Voice Input"):
                 poetic = generate_expression(emotion)
 
                 st.success(f"🔍 Detected Emotion: `{emotion}` ({round(score*100, 2)}%)")
-
                 st.markdown("### ✨ Poetic Expression:")
                 st.write(poetic)
 
-                st.image(f"https://source.unsplash.com/600x400/?{emotion},abstract", caption="AI Imagined Art", use_column_width=True)
+                st.image(
+                    f"https://source.unsplash.com/600x400/?{emotion},abstract",
+                    caption="AI Imagined Art",
+                    use_container_width=True
+                )
 
-    # Cleanup
     try:
         if fname:
             os.remove(fname)
     except Exception:
         pass
-
-if __name__ == "__main__":
-    import os
-    os.system('python -m streamlit run app.py')

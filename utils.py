@@ -1,13 +1,11 @@
 from transformers import pipeline
 import random
 
-# Emotion classification using HuggingFace pipeline
 def detect_emotion(text):
     classifier = pipeline("text-classification", model="j-hartmann/emotion-english-distilroberta-base", return_all_scores=False)
     result = classifier(text)[0]
     return result['label'], result['score']
 
-# Based on emotion, generate poetic expression
 def generate_expression(emotion):
     templates = {
         "joy": ["A sunrise dancing on calm waters.", "A field bursting into golden laughter."],
