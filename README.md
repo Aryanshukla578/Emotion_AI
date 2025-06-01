@@ -21,7 +21,7 @@ Transform your **voice or text** into expressive poetry and AI-generated art —
 
 ## 🌌 Screenshot
 
-![Emotion AI Screenshot](https://emotionai-dzjpecbetxzpyybquwlbqq.streamlit.app/media/HD-wallpaper-sky-stars-night-sky-beautiful-watercolor-background-beautiful-night-sky-night-sky-art-night-sky-painting-night-sky-drawing.jpg)
+![Emotion AI Screenshot](Emotion_AI/night_sky.jpg)
 
 *A poetic night: stars echoing your mood.*
 
