@@ -5,6 +5,7 @@ This Streamlit app detects **emotions from your voice or written words**, then r
 
 ![App Screenshot](assets/night_sky.jpg)
 
+
 ## 🌐 Live Demos
 
 - 🔊 [Voice-based Emotion App](https://emotionai-dzjpecbetxzpyybquwlbqq.streamlit.app/)
