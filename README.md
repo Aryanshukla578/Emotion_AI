@@ -3,7 +3,7 @@
 Turn raw human emotion into poetic expression — with a single voice or text input.  
 This Streamlit app detects **emotions from your voice or written words**, then responds with a **beautiful AI-generated poetic interpretation** and **abstract image**.
 
-![App Screenshot](assets/night_sky.jpg)
+![App Screenshot](assests/night_sky.jpg)
 
 
 ## 🌐 Live Demos
